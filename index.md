@@ -2,4 +2,6 @@
 title: "Welcome to my blog"
 ---
 
-I'm glad you are here. I plan to talk about ...
+Epsilons add up! I want to write about learning one thing every day. Could be big, could be small, but I just want to learn one thing every day.
+
+
