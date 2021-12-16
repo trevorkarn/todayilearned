@@ -1,6 +1,8 @@
 ---
 title: "A semester reflection"
 date: 2021-12-16
+layout: post
+usemathjax: true
 ---
 
 This semester I have been TA'ing for Calculus II (MATH 1272) at the University of Minnesota.
