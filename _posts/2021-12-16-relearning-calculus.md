@@ -10,7 +10,7 @@ Today is the day of their final exam, so I want to take a moment to reflect on t
 I certainly have learned a lot about teaching, but right now I'm reminded of a blog post by
 Terry Tao, enouraging us to ["learn and relearn your field"](https://terrytao.wordpress.com/career-advice/learn-and-relearn-your-field/). 
 
-## My undergraduate self
+## My perspective as an undergraduate
 
 > "When a measure becomes a target, it ceases to be a good measure" - [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
 
@@ -52,7 +52,7 @@ A homework question assigned in the course which made me think and which taught 
 
 ### The answer to the nice homework question
 
-The answers are respectively yes and no. To see why the answer for number (1) is "yes," I want to apply the ratio test.
+The answers are respectively yes and no. To see why the answer for number (1) is "yes," I want to apply the ratio test. (Thanks to Meagan Kenney for help in figuring this out.)
 Note that $$\lim_{n\rightarrow \infty} \frac{|c_{n+1}4^{n+1}|}{|c_n4^n|} 
 = 4 \lim_{n\rightarrow \infty} \frac{|c_{n+1}|}{|c_n|}\leq 1$$. The reason is that convergence is the
 same as not-divergence, which occurs when the limit is strictly bigger than $$1$$.
