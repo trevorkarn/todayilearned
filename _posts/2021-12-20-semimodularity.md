@@ -25,7 +25,7 @@ The intution of a hyperplane arrangement is a useful one for me. Let's talk abou
 before trying to extend that intuition to a matroid.
 
 If I have a collection of $$n-1$$-dimensional linear subspaces in an $$n$$-dimensional vector space, then I can
-call that collection a hyperplane arrangment, which is usually denoted by the scripty-"A": $$\mathcal{A}$.
+call that collection a hyperplane arrangment, which is usually denoted by the scripty-"A": $$\mathcal{A}$$.
 The intersection of two (genuinely different) $$n-1$$-dimensional linear subspaces should result in a $$n-2$$-dimensional
 linear subspace. 
 
