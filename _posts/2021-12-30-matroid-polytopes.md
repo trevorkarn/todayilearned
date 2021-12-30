@@ -186,18 +186,18 @@ tetrahedron. Let us scale it by $$2$$ so that each of its
 vertices correspond to points $$(2,0,0,0)$$, $$(0,2,0,0)$$, and
 so-on. Now we can draw the simplex.
 
-![A three-simplex](/images/2021-12-30/simplex-1.png)
+![A three-simplex](/assets/2021-12-30/simplex-1.png)
 
 Note that the midway points on each edge of the simplex have two 
 coordinates equal to one, and two coordinates equal to zero:
 
-![Labeled midpoints on a simplex](/images/2021-12-30/simplex-2.png)
+![Labeled midpoints on a simplex](/assets/2021-12-30/simplex-2.png)
 
 Three of the points matching this description are the vertices of our
 matroid polytope. Now we can draw their convex hull by restricting
 our attention to the simplex.
 
-![Running example polytope](/images/2021-12-30/polytope-on-simplex.png)
+![Running example polytope](/assets/2021-12-30/polytope-on-simplex.png)
 
 This process of restricting our attention to a scaled simplex is a nice way to visualize matroid polytopes which are *a priori* in $$\mathbb{R}^4$$.
 
@@ -267,7 +267,7 @@ and
 = \left( \frac{5}{7}, \frac{5}{14}, \frac{13}{14}, 0 \right ).\\]
 
 Let us draw those points on the matroid polytope:
-![Running example polytope with points](/images/2021-12-30/polytope-on-simplex-moment.png)
+![Running example polytope with points](/assets/2021-12-30/polytope-on-simplex-moment.png)
 
 It is no coincidence that these points live on the matroid polytope. As Ardila points out, this is a theorem
 of Gelfand, Goresky, MacPherson, and Serganova that the closure of the torus-orbit of a point in 
