@@ -40,7 +40,7 @@ was centered at $$0$$ the quantity
 \\[ R_n = \frac{1}{e} - \sum_{i=0}^n \frac{(-1)^i}{i!}\\]
 satisfies
 \\[ R_n < \frac{1}{(n+1)!} \\]
-so as long as $$n$$ is at least one, $$R_n < 1/2$$ and so $$f_n$$
+so as long as $$n$$ is at least one, $$n! R_n < 1/2$$ and so $$f_n$$
 is the nearest integer to $$n!/e$$.
 
 
