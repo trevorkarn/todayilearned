@@ -31,7 +31,7 @@ If you like thinking of points spaces in terms of coordinates, you could think o
 a set of coordinates. But the one tricky thing is that there are multiple coordinates
 for a single point on the Grassmannian. For example, another coordinate for the same point is
 \\[ \begin{bmatrix} -i & 0 & i & 0 \\\\ 0 & i & i & 0 \end{bmatrix}.\\] 
-(where $$i = \sqrt{-1}$$), because the row-space of $$M$$ contains $-i$ times the first row
+(where $$i = \sqrt{-1}$$), because the row-space of $$M$$ contains $$-i$$ times the first row
 and $$i$$ times the second row. The way I like to think of this is analogously to the "multiple
 coordinates for the same point" problem of polar coordinates. If you are familiar with polar coordinates,
 you'll see that $$(r, \theta) = (\sqrt{2}, \frac \pi 2) = (-\sqrt{2}, \frac{3\pi}{2})$$. There is nothing
@@ -102,7 +102,7 @@ One way to describe a matroid is by defining the independent sets.
 
 > *Def.* A **matroid** $$M$$ is a pair of a set $$E$$ called the groundset with a collection
 > $$\mathcal{I} \subset 2^E$$ of elements satisfying the following conditions:
-> 1. $$\emptyset \in \mathcal{I}$$
+> 1. The empty set is independent: $$\emptyset \in \mathcal{I}$$ 
 > 2. If $$A \in \mathcal{I}$$ and $$B \subseteq A$$, then $$B \in \mathcal{I}$$
 > 3. If $$A,B \in \mathcal{I}$$ and $$|A| > |B|$$, then there exists $$x \in A-B$$
 > such that $$B \cup \{x\} \in \mathcal{I}$$.
