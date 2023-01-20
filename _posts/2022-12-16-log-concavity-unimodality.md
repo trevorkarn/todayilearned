@@ -25,8 +25,7 @@ is a sequence of positive numbers
 with no internal zeroes which is log concave.
 Now suppose for the sake of contradiction that $$\{a_i\}$$
 is not unimodal. Then there exists an index $$k$$ such that
-$$ a_{k-1} \geq a_k \leq a_{k+1}$$. In particular this means
-\\[ \begin{cases} a_k \leq a_{k+1} \\ a_k \leq a_{k-1} \end{cases}.\\]
+$$ a_{k-1} \geq a_k \leq a_{k+1}$$. In particular this means that both $$a_k \leq a_{k+1}$$ and $$a_k \leq a_{k-1}$$.
 Then since $$ a_k > 0$$ (note we are using both positivity and the fact there
 are no internal zeros to establish this) we have 
 \\[ a_k^2 \leq a_{k+1}a_k \leq a_{k+1}a_{k-1}. \\]
@@ -35,3 +34,6 @@ This contradicts the assumption that $$\{a_i\}$$ was log concave. QED.
 
 I hope that you would agree it is not too bad of a proof, but in case you
 (like me) have always been too embarassed to ask to see it, here it is.
+
+
+**Edit (19JAN23):** Thanks to Anastasia Nathanson for catching a typo! Its now fixed.
