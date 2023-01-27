@@ -25,7 +25,7 @@ Then we can consider
 -1 &  0  & -1 \\\\
  0 &  1  &  1
  \end{bmatrix}, \\]
-with columns \(a^\prime, b^\prime,c^\prime\).
+with columns \\(a^\prime, b^\prime,c^\prime\\).
 We see that both
 \\[ a + b = c\\]
 and
@@ -44,17 +44,12 @@ span of the rows of the matrix whose columns are the groundset of
 the matroid.
 So for example, the two different realizations of \\(U_{2,3}\\)
 described by \\(M_1\\) and \\(M_2\\) are
-\\[ L = \operatorname{span}_{\mathbb{C}}\{\langle 1, 0, 1 \rangle, \langle 0, 1, 1 \rangle \} \\]
+\\[ L = \operatorname{span}\_{\mathbb{C}}\{\langle 1, 0, 1 \rangle, \langle 0, 1, 1 \rangle \} \\]
 and
-\\[ L^\prime = \operatorname{span}_{\mathbb{C}}\{
-\langle 1, -1, 0 \rangle,
-\langle -1, 0, -1 \rangle,
-\langle 0, 1, 1 \rangle \}.\\]
-It is clear that \\(L\\) is two-dimensional, but it is also true that \(L^\prime\)
-is two dimensional, since \\(\langle 1, -1, 0 \rangle
-+ \langle -1, 0, -1 \rangle,
-= -\langle 0, 1, 1 \rangle \\).
-So we can take \\(\langle 1, -1, 0 \rangle, \langle -1, 0, -1 \rangle,\\) to be a basis for \\(L^\prime\\).
+\\[ L^\prime = \operatorname{span}\_{\mathbb{C}}\{\langle 1, -1, 0 \rangle,\langle -1, 0, -1 \rangle,\langle 0, 1, 1 \rangle \}.\\]
+It is clear that \\(L\\) is two-dimensional, but it is also true that \\(L^\prime\\)
+is two dimensional, since \\(\langle 1, -1, 0 \rangle + \langle -1, 0, -1 \rangle, = -\langle 0, 1, 1 \rangle \\).
+So we can take \\(\langle 1, -1, 0 \rangle, \langle -1, 0, -1 \rangle\\) to be a basis for \\(L^\prime\\).
 
 # Independent sets
 
@@ -75,7 +70,7 @@ and elements of \\(L^\prime\\) as vectors \\(\langle s-t, -s, -t \rangle\\).
 Then the matrix representing the projection from \\(L\\) to \\(\mathbb{C}^{\{a,b\}}\\)
 is
 \\[ \begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \end{bmatrix} \\]
-so the image of \(L\) is
+so the image of \\(L\\) is
 \\[ \begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \end{bmatrix} \begin{bmatrix}s\\\\ t\\\\ s+t\end{bmatrix}
 = \begin{bmatrix} s \\\\ s + t \end{bmatrix}
 \\]
