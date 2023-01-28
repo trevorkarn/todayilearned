@@ -20,11 +20,7 @@ Lets consider the matrix
 \\[ M_1 = \begin{bmatrix} 1 & 0 & 1 \\\\ 0 & 1 & 1 \end{bmatrix}. \\]
 Let \\(a,b,c\\) denote the columns respectively.
 Then we can consider
-\\[ M_2 = \begin{bmatrix} 
- 1 &  -1 & 0 \\\\
--1 &  0  & -1 \\\\
- 0 &  1  &  1
- \end{bmatrix}, \\]
+\\[ M_2 = \begin{bmatrix}  1 &  -1 & 0 \\\\ -1 &  0  & -1 \\\\ 0 &  1  &  1 \end{bmatrix}, \\]
 with columns \\(a^\prime, b^\prime,c^\prime\\).
 We see that both
 \\[ a + b = c\\]
