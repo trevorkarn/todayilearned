@@ -17,7 +17,7 @@ I'll regard this as a curve in the real plane. Since we are working in the real 
 It is a common technique in solving linear differential equations to first solve a [homogeneous version of the equation](https://en.wikipedia.org/wiki/Homogeneous_differential_equation). 
 A rough reason for this is that it is easier to reason about zero than other numbers. We'll take the same perspective
 here. Instead of thinking about the equation \\(y = x^2 - 1 \\) we can think about the polynomial \\(f = y - x^2 + 1\\) with the understanding that \\(y - x^2 + 1 = 0\\). So then the variety corresponding to \\(f\\) contains the points \\((0,-1)\\), \\((\pm 1,0)\\), and \\((\pm 2,3)\\) among others. Lets introduce notation for a variety corresponding to \\(f\\):
-\\[ V((f)) = \{(x,y) : y - x^2 + 1\}. \\]
+\\[ V((f)) = \\{(x,y) : y - x^2 + 1\\}. \\]
 The "data type" of \\(V((f))\\) is a set of points in the plane.
 
 It is a fact that there is a correspondence between ideals and varieties.
@@ -36,7 +36,7 @@ Now we can introduce the second, to me more sophisticated but also more opaque, 
 Denote by \\( \operatorname{Spec}(s) \\) the set of all prime ideals of \\(S\\). One nice fact about prime
 ideals \\(p\\) is that \\(\sqrt{p} = p\\). Additionally, every maximal ideal is prime.
 The more sophisticated definition is that the variety of \\(I\\) is
-\\[ V(I) = \{ p \in \operatorname{Spec}(s) : I \superseteq p \}.\\]
+\\[ V(I) = \\{ p \in \operatorname{Spec}(s) : I \supseteq p \\}.\\]
 The "data type" of \\(V(I)\\) is a collection of prime ideals.
 
 # Points and maximal ideals
