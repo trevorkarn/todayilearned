@@ -18,7 +18,6 @@ The zeroth "definition" of a variety is as a curve we want to study geometricall
            width: 50%;"
     src="/todayilearned/assets/2023-02-27/parabola1.png" 
     alt="The running example: a parabola">
-</img>
   
 I'll regard this as a curve in the real plane. Since we are working in the real numbers, our polynomials should have real coefficients, and since we are working in the plane, we should have an \\(x\\) coordinate and a \\(y\\) coordinate. Thus our polynomials are in the polynomial ring \\(S = \mathbb{R}[x,y]\\). 
 It is a common technique in solving linear differential equations to first solve a [homogeneous version of the equation](https://en.wikipedia.org/wiki/Homogeneous_differential_equation). 
