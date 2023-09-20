@@ -1,6 +1,6 @@
 ---
 title: "Creating beautiful Hasse diagrams with little effort"
-date: 2023-02-27
+date: 2023-04-21
 layout: post
 usemathjax: true
 ---
