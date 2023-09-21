@@ -16,7 +16,7 @@ Before I use Mathematica to model a skydiver jumping out of a plane and opening 
 the skydiver above ground as a function of time.
 If we assume that air-resistance is proportional to
 velocity, we get the initial value problem
-\\[ \begin{cases} h''(t) = -g - r_1 h'(t) \\\\ h(0) = h_0 \\\\ h'(0)=0\end{cases}.\\]
+\\[ \begin{cases} h^{\prime \prime} (t) = -g - r_1 h'(t) \\\\ h(0) = h_0 \\\\ h'(0)=0\end{cases}.\\]
 Once we have an explicit solution for \\(h(t)\\), we have a description of how the skydiver falls before deploying their parachute. We can then compute \\(h_1 = h(t_0)\\).
 
 I'll assume that the parachute fully deploys instantaneously (which is a bad assumption, as pointed out by [Meade and Struthers](https://www.ijee.ie/articles/Vol15-6/ijee1097.pdf)), and so we have a new initial value problem
@@ -151,7 +151,7 @@ which gives us the plots
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2023-09-21/vet-skydiver-velocity.png" 
+    src="/todayilearned/assets/2023-09-21/vet-skydiver-height.png" 
     alt="A plot of experienced skydiver altitute vs time">
 
 <img 
