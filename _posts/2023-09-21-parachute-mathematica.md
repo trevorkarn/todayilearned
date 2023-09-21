@@ -84,7 +84,7 @@ Here is what the solution looks like, plotted out:
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2023-09-21/skydiver-height.pdf" 
+    src="/todayilearned/assets/2023-09-21/skydiver-height.png" 
     alt="A plot of skydiver altitute vs time">
 
 We might also want to check that they decelerate, so we can plot the velocity too:
@@ -94,7 +94,7 @@ We might also want to check that they decelerate, so we can plot the velocity to
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2023-09-21/skydiver-velocity.pdf" 
+    src="/todayilearned/assets/2023-09-21/skydiver-velocity.png" 
     alt="A plot of skydiver altitute vs time">
 
 The two plots above were made using the following code:
@@ -151,7 +151,7 @@ which gives us the plots
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2023-09-21/vet-skydiver-velocity.pdf" 
+    src="/todayilearned/assets/2023-09-21/vet-skydiver-velocity.png" 
     alt="A plot of experienced skydiver altitute vs time">
 
 <img 
@@ -159,7 +159,7 @@ style="display: block;
        margin-left: auto;
        margin-right: auto;
        width: 50%;"
-src="/todayilearned/assets/2023-09-21/vet-skydiver-velocity.pdf" 
+src="/todayilearned/assets/2023-09-21/vet-skydiver-velocity.png" 
 alt="A plot of experienced skydiver velocity vs time">
 
 and we can see that the total jump takes around 132 seconds, with parachute deployment occuring at 44 seconds. 
