@@ -36,7 +36,7 @@ That would be scary.
 
 For example, the polynomial \\(f = x_1^2 x_2 + x_1^2 x_3 + x_1 x_2 x_3\\) is in \\(I_3\\), but is not fixed by every element of \\(\mathfrak{S}\_3\\).
 View \\(f\\) as \\(x_1 e_2(x_1,x_2,x_3)\\), so that we can see it is in the ideal \\(I_3\\).
-Then any \\(\sigma\\) acting on it will act like \\(\sigma x_1  e_2(x_1,x_2,x_3) = x_{\sigma(i)}  e_2(x_1,x_2,x_3)\\).
+Then any \\(\sigma\\) acting on it will act like \\(\sigma x_1  e_2(x_1,x_2,x_3) = x_{\sigma(1)}  e_2(x_1,x_2,x_3)\\).
 So the action results in a genuinely different polynomial, but one that is still in the ideal.
 This is what we mean by a "stable" ideal.
 
