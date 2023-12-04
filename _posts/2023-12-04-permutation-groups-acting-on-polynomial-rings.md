@@ -18,7 +18,8 @@ If you are just interested in the code, scroll right to the bottom. Before I lis
 
 Let's make sure we are on the same page about the group action and ring we want to work with.
 First, consider the action of 
-\\(\mathfrak{S}_n \\) permuting \\(n\\) letters on a polynomial ring with \\(n\\) generators. 
+\\(\mathfrak{S}_n\\)
+permuting \\(n\\) letters on a polynomial ring with \\(n\\) generators. 
 The action is on the subscripts. 
 So if a permutation \\(\sigma\\) takes \\(i \mapsto \sigma(i)\\), then the action of \\(\sigma\\) on the generators is 
 \\(\sigma \cdot x_i = x_{\sigma(i)}\\).
