@@ -176,7 +176,7 @@ One easy way to compute the irreducible decomposition from the character using S
 
 The way that we'll come up with these symmetric functions is by applying the definition of the Frobenius characteristic map. 
 The map is defined on a representation \\(V\\), as follows:
-\\[\operatorname{ch} V = \frac{1}{n!}\sum_{w \in \mathfrak{S}_n} \chi(w)p_{\operatorname{type}(w)} = \sum{\lambda \vdash n} \frac{\chi(\lambda)}{z_\lambda}p_\lambda,\\]
+\\[\operatorname{ch}\ V = \frac{1}{n!}\sum_{w \in \mathfrak{S}\_n} \chi(w)p_{\operatorname{type}(w)} = \sum{\lambda \vdash n} \frac{\chi(\lambda)}{z_\lambda}p_\lambda,\\]
 where \\(z_\lambda\\) is the size of the centralizer of an element of cycle type \\(\lambda\\).
 Sage knows how to compute \\(z_\lambda\\) using the function `zee` in the symmetric function algebras package.
 
