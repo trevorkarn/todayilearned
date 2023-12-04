@@ -18,7 +18,7 @@ If you are just interested in the code, scroll right to the bottom. Before I lis
 
 Let's make sure we are on the same page about the group action and ring we want to work with.
 First, consider the action of 
-\\(\mathfrak{S}_n\\)
+\\(\mathfrak{S}\_n\\)
 permuting \\(n\\) letters on a polynomial ring with \\(n\\) generators. 
 The action is on the subscripts. 
 So if a permutation \\(\sigma\\) takes \\(i \mapsto \sigma(i)\\), then the action of \\(\sigma\\) on the generators is 
@@ -34,7 +34,7 @@ Rather we need it to be fixed as a set.
 We want this sort of stability because we don't want the action of a group element on a representative of \\(0\\) to be nonzero. 
 That would be scary.
 
-For example, the polynomial \\(f = x_1^2 x_2 + x_1^2 x_3 + x_1 x_2 x_3\\) is in \\(I_3\\), but is not fixed by every element of \\(\mathfrak{S}_3\\).
+For example, the polynomial \\(f = x_1^2 x_2 + x_1^2 x_3 + x_1 x_2 x_3\\) is in \\(I_3\\), but is not fixed by every element of \\(\mathfrak{S}\_3\\).
 View \\(f\\) as \\(x_1 e_2(x_1,x_2,x_3)\\), so that we can see it is in the ideal \\(I_3\\).
 Then any \\(\sigma\\) acting on it will act like \\(\sigma x_1  e_2(x_1,x_2,x_3) = x_{\sigma(i)}  e_2(x_1,x_2,x_3)\\).
 So the action results in a genuinely different polynomial, but one that is still in the ideal.
