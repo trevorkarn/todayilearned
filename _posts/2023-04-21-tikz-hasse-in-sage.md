@@ -33,7 +33,11 @@ Now, calling `view(P)` will create a PDF of the Hasse diagram. For me, it automa
 # Getting the code
 
 Sometimes, you might want to customize the image to call attention to a specific element (for me, I'd do this when localizing at a specific flat in a matroid). To get the Tikz code
-that create the beautiful PDF, just run `view(P, debug=True)`. This will give you a long output. But the top part is what matters. Heres what I get
+that create the beautiful PDF, just run `view(P, debug=True)`. 
+
+**Edit: 3/20/24** It turns out to be easier to import the `_latex_file_` function after running `from sage.misc.latex import _latex_file_`. Still set `debug=True`. 
+
+This will give you a long output. But the top part is what matters. Heres what I get
 
 ```
 sage: view(P, debug=True)
