@@ -78,7 +78,7 @@ That didn't seem to help! Sometimes calling `expand` first helps Sage to see the
     (-1)^n*(-3)^n
 
 Again, we don't get our simpler value of just \\(3^n\\). Now wait! We could be having simplification issues because there is a mathematical problem in what we have asked the computer to do. We know from the problem that \\(n\\) is an integer, but the `SymbolicRing` doesn't know that! 
-We don't have to go that far to see an example of where we might need the assumption that `n` is an integer. For instance \\( (-1)^(1/4) (-3)^(1/4) = i\sqrt[4]{3} \\)
+We don't have to go that far to see an example of where we might need the assumption that `n` is an integer. For instance \\( (-1)^{1/4} (-3)^{1/4} = i\sqrt[4]{3} \\)
 As far as Sage is concerned, `n` is just some symbol. So lets tell Sage about the assumptions we have been making that `n` is a positive integer.
 
     sage: assumptions()
