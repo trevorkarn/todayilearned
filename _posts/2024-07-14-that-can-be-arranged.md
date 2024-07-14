@@ -100,7 +100,7 @@ Well in this case, it encodes the rotational symmetry of the hour ticks on a 24-
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2024-07-13/clock24.jpg" 
+    src="/todayilearned/assets/2024-07-13/clock-24.jpg" 
     alt="A 24-hour clock.">
 
 (Image from Wikipedia, courtesy of Christine Matthews under the Creative Commons Attribution-Share Alike 2.0 Generic license)
