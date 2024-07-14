@@ -17,7 +17,7 @@ Here's the blank puzzle:
            margin-left: auto;
            margin-right: auto;
            width: 50%;"
-    src="/todayilearned/assets/2024-07-13/circles.png" 
+    src="/todayilearned/assets/2024-07-13/empty.png" 
     alt="The blank puzzle.">
 
 Do you see the four times that there are four circled boxes in a row? They are crucial to our theme.
