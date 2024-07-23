@@ -56,7 +56,7 @@ If we use the variable \\(T\\) to describe the number of rearrangements of "That
 >So there are two rearrangements of "That" for every rearrangement of "that."
 
 is equivalent to the equation \\(2\cdot t = T\\).
-So we can solve for \\(2 \cdot t = 24\\) to see that there are \\(12\\) ways to rearrange "that".
+So we can solve \\(2 \cdot t = 24\\) for \\(t\\) to see that there are \\(12\\) ways to rearrange "that".
 It does seem like it would be hard to fit all 12 ways into a single 15-by-15 crossword grid... but these puzzle makers are pretty creative!
 
 # A harder question
@@ -68,7 +68,7 @@ We *could* answer the question using the same technique we used to answer the qu
 For example, there are four i's in Mississippi. 
 So that means that every configuration of i's comes from not just two but \\(4!\\) different rearrangements of the letters.
 But it gets even harder because now there are multiple i's and multiple s's *and* multiple p's. 
-One way to make all of this bookkeeping easier is to think about how to encorporate formal mathematical notions of symmetry into the picture.
+One way to make all of this bookkeeping easier is to think about how to incorporate formal mathematical notions of symmetry into the picture.
 Let's introduce these formal mathematical notions before we return to rearranging the Mississippi.
 
 # Mathematical symmetry
@@ -82,7 +82,7 @@ The elements are the numbers \\(0,1,2,3,\\) and so on, up to and including \\(23
 The operation is simple to describe: add the two numbers together. 
 So for example \\(3 + 7 = 10\\) in the group. 
 We took two numbers \\(3\\) and \\(7\\) and combine them to create our new number \\(10\\). All of these numbers are elements of the group. 
-Another example: lets combine \\(2\\) and \\(22\\). 
+Another example: let's combine \\(2\\) and \\(22\\). 
 We see that \\(22 + 2 = 24\\).
 Oh no! \\(24\\) is not an element of the group! What do we do??
 
@@ -105,7 +105,7 @@ Well in this case, it encodes the rotational symmetry of the hour ticks on a 24-
 
 (Image from Wikipedia, courtesy of Christine Matthews under the Creative Commons Attribution-Share Alike 2.0 Generic license)
 
-Usually we think about the hand on a clock moving, but Albert Einstien, who discovered the theory of relativity, would have told us that we can think of the clock itself moving, with the hand always pointing straight up like it was midnight, then every hour, the clock would rotate counter clockwise one tick. So the group \\(\mathbb{Z}/24\\) encodes the symmetry of the hours in the day.
+Usually we think about the hand on a clock moving, but Albert Einstein, who discovered the theory of relativity, would have told us that we can think of the clock itself moving, with the hand always pointing straight up like it was midnight, then every hour, the clock would rotate counter clockwise one tick. So the group \\(\mathbb{Z}/24\\) encodes the symmetry of the hours in the day.
 
 <img 
     style="display: block; 
@@ -134,13 +134,14 @@ In fact, it is very helpful to us.
 The possible configurations of the 12 hour clock could be mathematically called the "orbit" of the \\(\mathbb{Z}/24\\) action on the clock. 
 Notice the fact that the size of the "stabilizer" is \\(2\\), the size of the "orbit" is \\(12\\), and the size of the group is \\(24 = 2 \cdot 12\\).
 
-This is not a coincidence! The so-called "orbit stabilizer theorem" says that the size of the orbit, times the size of the stabilizer will *always* be the size of the group.
+This is not a coincidence! The so-called "orbit stabilizer theorem" says that the size of the orbit times the size of the stabilizer will *always* be the size of the group.
 
 # Bringing it back to "that" and "Mississippi"
 
 When we talk about rearrangements of a bunch of letters, there is a specific group we want to bring into the picture. That group is called the "symmetric group." 
 While all groups encode symmetry, the "symmetric group" is in some sense the "biggest, most symmetric of all the symmetries."
 There is a way to say that precisely, but it isn't important to us right now, so I don't want to worry about it.
+If you are really worried about it, you can think of the symmetric group as encoding the symmetries of all ways to shuffle a deck of cards.
 The operation is to rearrange rearrangements. Meta!
 
 In the same way that I defined \\(\mathbb{Z}/24\\) as the symmetries of hours in the day, the symmetric group tells us all the ways to rearrange the letters in a word with distinct letters.
