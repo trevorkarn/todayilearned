@@ -5,7 +5,7 @@ layout: post
 usemathjax: true
 ---
 
-One of the useful tools in algebraic combinatorics is to consider a module whose basis corresponds to a known combinatorial objet.
+One of the useful tools in algebraic combinatorics is to consider a module whose basis corresponds to a known combinatorial object.
 For example, consider the ring of symmetric functions.
 The dimension of symmetric functions of degree-\\(n\\) is the number of partitions of the integer \\(n\\).
 For this reason, Sage implements the ring of symmetric functions as a `CombinatorialFreeModule` with basis given by partitions `mu`. 
